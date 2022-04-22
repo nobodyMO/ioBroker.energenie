@@ -25,8 +25,7 @@ This is a simple implementation of an adapter for enerGenie power socket via the
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.1.0 (2022-04-22)
 * (nobodyMO) initial release
 
 ## License
