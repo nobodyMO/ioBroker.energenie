@@ -1,0 +1,145 @@
+{
+    "common": {
+        "name": "energenie",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "EnerGenie PMS LAN Adapter",
+        "titleLang": {
+            "en": "EnerGenie PMS LAN Adapter",
+            "de": "EnerGenie PMS LAN Adapter",
+            "ru": "EnerGenie PMS LAN Adapter",
+            "pt": "EnerGenie PMS LAN Adapter",
+            "nl": "EnerGenie PMS LAN Adapter",
+            "fr": "EnerGenie PMS LAN Adapter",
+            "it": "EnerGenie PMS LAN Adapter"
+        },
+        "desc": {
+            "en": "EnerGenie PMS LAN Adapter using the native interface",
+            "de": "EnerGenie PMS LAN Adapter für die native Schnittstelle"
+        },
+        "authors": [
+            "Markus Korporal <markus@korporal.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "enerGenie",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "energenie.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/nobodyMO/ioBroker.energenie/main/admin/energenie.png",
+        "readme": "https://github.com/nobodyMO/ioBroker.energenie/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": false,
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+		"ipAddress": "192.168.1.111",
+		"port": 5000,
+        "pass": "",        
+		"poll": 10000
+    },
+    "objects": [],
+    "instanceObjects": [
+		{
+		  "_id": "info",
+		  "type": "channel",
+		  "common": {
+			"name": "Information"
+		  },
+		  "native": {}
+		},
+		{
+		  "_id": "info.connection",
+		  "type": "state",
+		  "common": {
+			"role": "indicator.connected",
+			"name": "If connected to socket",
+			"type": "boolean",
+			"read": true,
+			"write": false,
+			"def": false
+		  },
+		  "native": {}
+		},
+		{
+			"_id": "SOCKET_A",
+            "type": "state",
+            "common": {
+                "role": "state",
+                "name": "Switch state of socket",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}	
+		},
+		{
+            "_id": "SOCKET_B",
+            "type": "state",
+            "common": {
+                "role": "state",
+                "name": "Switch state of socket",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}	
+		},
+		{
+            "_id": "SOCKET_C",
+            "type": "state",
+            "common": {
+                "role": "state",
+                "name": "Switch state of socket",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}	
+		},
+		{
+            "_id": "SOCKET_D",
+            "type": "state",
+            "common": {
+                "role": "state",
+                "name": "Switch state of socket",
+                "type": "boolean",
+                "read": true,
+                "write": true,
+                "def": false
+            },
+            "native": {}	
+		}		
+	
+	]
+}
