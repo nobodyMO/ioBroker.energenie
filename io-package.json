@@ -16,15 +16,15 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "iobroker adapter EnerGenie PMS LAN Adapter",
+        "title": "EnerGenie PMS LAN Adapter",
         "titleLang": {
-            "en": "iobroker adapter EnerGenie PMS LAN",
-            "de": "iobroker adapter EnerGenie PMS LAN",
-            "ru": "iobroker adapter EnerGenie PMS LAN",
-            "pt": "iobroker adapter EnerGenie PMS LAN",
-            "nl": "iobroker adapter EnerGenie PMS LAN",
-            "fr": "iobroker adapter EnerGenie PMS LAN",
-            "it": "iobroker adapter EnerGenie PMS LAN"
+            "en": "EnerGenie PMS LAN",
+            "de": "EnerGenie PMS LAN",
+            "ru": "EnerGenie PMS LAN",
+            "pt": "EnerGenie PMS LAN",
+            "nl": "EnerGenie PMS LAN",
+            "fr": "EnerGenie PMS LAN",
+            "it": "EnerGenie PMS LAN"
         },
         "desc": {
             "en": "EnerGenie PMS LAN Adapter using the native interface",
