@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "energenie",
-        "version": "0.0.1",
+        "version": "0.1.0",
         "news": {
             "0.0.1": {
                 "en": "initial release",
@@ -16,15 +16,15 @@
                 "zh-cn": "首次出版"
             }
         },
-        "title": "EnerGenie PMS LAN Adapter",
+        "title": "iobroker adapter EnerGenie PMS LAN Adapter",
         "titleLang": {
-            "en": "EnerGenie PMS LAN Adapter",
-            "de": "EnerGenie PMS LAN Adapter",
-            "ru": "EnerGenie PMS LAN Adapter",
-            "pt": "EnerGenie PMS LAN Adapter",
-            "nl": "EnerGenie PMS LAN Adapter",
-            "fr": "EnerGenie PMS LAN Adapter",
-            "it": "EnerGenie PMS LAN Adapter"
+            "en": "iobroker adapter EnerGenie PMS LAN",
+            "de": "iobroker adapter EnerGenie PMS LAN",
+            "ru": "iobroker adapter EnerGenie PMS LAN",
+            "pt": "iobroker adapter EnerGenie PMS LAN",
+            "nl": "iobroker adapter EnerGenie PMS LAN",
+            "fr": "iobroker adapter EnerGenie PMS LAN",
+            "it": "iobroker adapter EnerGenie PMS LAN"
         },
         "desc": {
             "en": "EnerGenie PMS LAN Adapter using the native interface",
